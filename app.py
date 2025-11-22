@@ -42,7 +42,7 @@ def list_books():
     for book_return in books_return:
         #unico cambio necesario:
         #read = 'YES' if book_return['read'] else 'NO'
-        read = 'YES' if book_return['read'] == '1' else 'NO'
+        read = 'YES' if book_return['read'] else 'NO'
         print("author {} with title {} read {}".format(book_return['author'], book_return['name'], read))
         #print("author {} with title {} read {}".format(book_return["author"], book_return["name"], book_return['read']))
 
