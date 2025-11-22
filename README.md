@@ -13,7 +13,10 @@ El fichero de la aplicacion app.py, practicamente no hace falta modificarlo a ex
  
  por esta otra:
 
-> read = 'YES' if book_return['read'] == '1' else 'NO'
+> read = 'YES' if book_return['read'] else 'NO'
+
+Esta tambien:
+> books = [book for book in books if book['name'] != name]
 
 Para ver paso a paso como se desarrolla visitar el este video de youtube
 https://youtu.be/4yEKWer4cVI?si=hZPuBqtvZYlgMv8p
