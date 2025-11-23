@@ -4,7 +4,7 @@
 
 
 En el fichero Filedatabase.py declaramos el nombre del fichero
-> books_file = 'book.txt'
+> books_file = 'book.json'
 
 Como vemos solo hace falta el fichero que almacena los datos de la base de datos, que en este caso es un fichero de texto.
 El fichero de la aplicacion app.py, practicamente no hace falta modificarlo a excepcion de esta sentencia:
